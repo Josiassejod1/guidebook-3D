@@ -1,0 +1,28 @@
+<html>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- Use it like any other HTML element -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    div {
+        background: linear-gradient(to bottom, #6699ff 0%, black 100%);
+    }
+</style>
+
+<body style="margin : 0px; overflow: hidden;">
+    <div>
+        <model-viewer background-color="#622dcf" preload camera-controls auto-rotate ar ar-scale="auto"
+            style="width: 100%; height:100%" environment-intensity="1" src="astro.glb" alt="A 3D model of an astronaut"
+            autoplay magic-leap unstable-webxr quick-look-browsers="safari chrome">
+
+        </model-viewer>
+        <a href="https://www.securinginternships.com" target="_blank">
+            <button
+                style="background-color:white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
+                📕 Guidebook Website
+            </button>
+        </a>
+    </div>
+</body>
+
+</html>
